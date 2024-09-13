@@ -6,7 +6,7 @@ import { reviewSkillsDescriptionLine1, reviewSkillsDescriptionLine2 } from "@/co
 export default function Home() {
   return (
     <div className="wrapper">
-      <div className="flex flex-col items-start gap-4">
+      <div className="flex flex-col items-start gap-8">
         <BreadCrumb />
         <p className="leading-8 stroke_primary font-semibold">
           {reviewSkillsDescriptionLine1} 
