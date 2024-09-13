@@ -1,6 +1,7 @@
 import BreadCrumb from "@/components/shared/BreadCrumb";
 import SkillsSection from "@/components/shared/SkillsSection";
 import { reviewSkillsDescriptionLine1, reviewSkillsDescriptionLine2 } from "@/constants";
+import { Suspense } from "react";
 
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
           <br /> 
           {reviewSkillsDescriptionLine2}
         </p>
-        <SkillsSection />
+        <Suspense>
+          <SkillsSection />
+        </Suspense>
       </div>
     </div>
   );
