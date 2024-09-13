@@ -125,4 +125,12 @@
     @apply text-base text-neutral-500;
   }
 
+  .stroke_primary {
+    @apply text-neutral-700;
+  }
+
+  .stroke_secondary {
+    @apply text-neutral-500;
+  }
+
 }
